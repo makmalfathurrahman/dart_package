@@ -17,4 +17,8 @@ void main() {
   print(customer.sayCustomer());
   print(category);
   print(category.category);
+
+  // NOTEADD: From src/operation.dart
+  var operation = sum(1, 2);
+  print(operation);
 }
